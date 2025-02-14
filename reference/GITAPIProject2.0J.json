@@ -87,7 +87,7 @@
           "404": {
             "description": "User Not Found",
             "schema": {
-              "type": "null"
+              "allOf": []
             }
           },
           "409": {
