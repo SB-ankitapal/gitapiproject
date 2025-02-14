@@ -87,7 +87,20 @@
           "404": {
             "description": "User Not Found",
             "schema": {
-              "allOf": []
+              "allOf": [
+                {
+                  "$ref": "stoplight://resources/overrides/wjVFPrggGkk"
+                },
+                {
+                  "$ref": "stoplight://resources/overrides/VKBysEUwL1A"
+                },
+                {
+                  "$ref": "stoplight://resources/overrides/cv2VblHtB2A"
+                },
+                {
+                  "$ref": "stoplight://resources/overrides/YaGYqDV1Qh0"
+                }
+              ]
             }
           },
           "409": {
