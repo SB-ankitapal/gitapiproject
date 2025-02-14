@@ -101,22 +101,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "firstName": {
-                    "type": "string"
+                "allOf": [
+                  {
+                    "$ref": "stoplight://resources/overrides/wjVFPrggGkk"
                   },
-                  "lastName": {
-                    "type": "string"
+                  {
+                    "$ref": "stoplight://resources/overrides/VKBysEUwL1A"
                   },
-                  "email": {
-                    "type": "string",
-                    "description": "If a new email is given, the user's email verified property will be set to false."
+                  {
+                    "$ref": "stoplight://resources/overrides/cv2VblHtB2A"
                   },
-                  "dateOfBirth": {
-                    "type": "string"
+                  {
+                    "$ref": "stoplight://resources/overrides/YaGYqDV1Qh0"
                   }
-                }
+                ]
               },
               "examples": {
                 "Update First Name": {
