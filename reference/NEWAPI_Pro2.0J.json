@@ -208,6 +208,17 @@
           "id": "yxirt52jehg9l"
         }
       }
+    },
+    "/path/user/ououoo": {
+      "patch": {
+        "summary": "path",
+        "tags": [],
+        "responses": {},
+        "operationId": "patch-path-user-ououoo",
+        "x-stoplight": {
+          "id": "0oc1h0a30xdbp"
+        }
+      }
     }
   },
   "definitions": {
