@@ -336,46 +336,26 @@
                                         "id": "3y9ygxpxsc3er"
                                       }
                                     },
-                                    "yutu": {
-                                      "type": "object",
+                                    "": {
                                       "x-stoplight": {
-                                        "id": "8ceho0kr2pww8"
+                                        "id": "3jbxer3bjn0bq"
                                       },
-                                      "properties": {
-                                        "ytutu": {
-                                          "type": "string",
+                                      "oneOf": [
+                                        {
                                           "x-stoplight": {
-                                            "id": "ddvcs8cbb0kkq"
-                                          }
-                                        },
-                                        "ugtuyu": {
-                                          "type": "string",
-                                          "x-stoplight": {
-                                            "id": "9wrz70cnt9oqx"
-                                          }
-                                        },
-                                        "": {
-                                          "x-stoplight": {
-                                            "id": "4t79w7fm67hsy"
+                                            "id": "tyzoqsbmfegwt"
                                           },
-                                          "oneOf": [
-                                            {
-                                              "x-stoplight": {
-                                                "id": "xw6p8f8x1kj5b"
-                                              },
-                                              "properties": {
-                                                "refermodel": {
-                                                  "$ref": "../models/model2.json"
-                                                },
-                                                "refmermask": {
-                                                  "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
-                                                }
-                                              }
+                                          "properties": {
+                                            "ytyty": {
+                                              "$ref": "../models/model2.json"
+                                            },
+                                            "yygyh": {
+                                              "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
                                             }
-                                          ],
-                                          "type": "object"
+                                          }
                                         }
-                                      }
+                                      ],
+                                      "type": "object"
                                     }
                                   }
                                 }
