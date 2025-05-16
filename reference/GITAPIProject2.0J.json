@@ -306,60 +306,26 @@
                               },
                               "items": {}
                             },
-                            "test11": {
-                              "type": "object",
+                            "": {
                               "x-stoplight": {
-                                "id": "zrmu29224bylr"
+                                "id": "gpvpr8n4bpbak"
                               },
-                              "properties": {
-                                "test12": {
-                                  "type": "string",
+                              "oneOf": [
+                                {
                                   "x-stoplight": {
-                                    "id": "jfq1zaaap1cda"
-                                  }
-                                },
-                                "test13": {
-                                  "type": "object",
-                                  "x-stoplight": {
-                                    "id": "lwi16shwhglm2"
+                                    "id": "4bobkqmt4gs3j"
                                   },
                                   "properties": {
-                                    "test": {
-                                      "type": "string",
-                                      "x-stoplight": {
-                                        "id": "g3hif3vs2b48s"
-                                      }
+                                    "ref2": {
+                                      "$ref": "../models/model2.json"
                                     },
-                                    "tes": {
-                                      "type": "string",
-                                      "x-stoplight": {
-                                        "id": "3y9ygxpxsc3er"
-                                      }
-                                    },
-                                    "": {
-                                      "x-stoplight": {
-                                        "id": "3jbxer3bjn0bq"
-                                      },
-                                      "oneOf": [
-                                        {
-                                          "x-stoplight": {
-                                            "id": "tyzoqsbmfegwt"
-                                          },
-                                          "properties": {
-                                            "ytyty": {
-                                              "$ref": "../models/model2.json"
-                                            },
-                                            "yygyh": {
-                                              "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
-                                            }
-                                          }
-                                        }
-                                      ],
-                                      "type": "object"
+                                    "ref3": {
+                                      "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
                                     }
                                   }
                                 }
-                              }
+                              ],
+                              "type": "object"
                             }
                           }
                         }
