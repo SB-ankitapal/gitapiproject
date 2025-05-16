@@ -1,0 +1,33 @@
+{
+  "title": "model2",
+  "x-stoplight": {
+    "id": "0j17f2zhuymq3"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "ylab6skf6s9vr"
+      }
+    },
+    "time": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "2tzmzc84y2h7d"
+      }
+    },
+    "timer": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "0dhiou9epahvo"
+      }
+    },
+    "refrmodel": {
+      "$ref": "./model1.yaml",
+      "x-stoplight": {
+        "id": "lruubv96cz9yx"
+      }
+    }
+  }
+}

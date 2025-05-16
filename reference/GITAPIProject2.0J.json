@@ -219,6 +219,179 @@
           "id": "d0kf4gr9bao61"
         }
       }
+    },
+    "/Newpath/thhe": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-Newpath-thhe",
+        "x-stoplight": {
+          "id": "5ujb001299u1y"
+        }
+      },
+      "put": {
+        "summary": "Your PUT endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "put-Newpath-thhe",
+        "x-stoplight": {
+          "id": "94zc21cp2620o"
+        },
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "test1": {
+                  "type": "string",
+                  "x-stoplight": {
+                    "id": "ugyjvrvlvhjf5"
+                  }
+                },
+                "test2": {
+                  "type": "string",
+                  "x-stoplight": {
+                    "id": "lby57sjbohulq"
+                  }
+                },
+                "tst3": {
+                  "type": "object",
+                  "x-stoplight": {
+                    "id": "duyigczbulnzd"
+                  },
+                  "properties": {
+                    "test4": {
+                      "type": "string",
+                      "x-stoplight": {
+                        "id": "eeaw8ow7goegp"
+                      }
+                    },
+                    "test5": {
+                      "type": "string",
+                      "x-stoplight": {
+                        "id": "uynplvjnr39sp"
+                      }
+                    },
+                    "test6": {
+                      "type": "object",
+                      "x-stoplight": {
+                        "id": "1jgjwemc774vi"
+                      },
+                      "properties": {
+                        "test7": {
+                          "type": "string",
+                          "x-stoplight": {
+                            "id": "6adiae51ahzhu"
+                          }
+                        },
+                        "test8": {
+                          "type": "string",
+                          "x-stoplight": {
+                            "id": "fwob7r7im15mx"
+                          }
+                        },
+                        "test9": {
+                          "type": "object",
+                          "x-stoplight": {
+                            "id": "z3og3b38jaaeq"
+                          },
+                          "properties": {
+                            "test10": {
+                              "type": "array",
+                              "x-stoplight": {
+                                "id": "ffyvbhj9o5haw"
+                              },
+                              "items": {}
+                            },
+                            "test11": {
+                              "type": "object",
+                              "x-stoplight": {
+                                "id": "zrmu29224bylr"
+                              },
+                              "properties": {
+                                "test12": {
+                                  "type": "string",
+                                  "x-stoplight": {
+                                    "id": "jfq1zaaap1cda"
+                                  }
+                                },
+                                "test13": {
+                                  "type": "object",
+                                  "x-stoplight": {
+                                    "id": "lwi16shwhglm2"
+                                  },
+                                  "properties": {
+                                    "test": {
+                                      "type": "string",
+                                      "x-stoplight": {
+                                        "id": "g3hif3vs2b48s"
+                                      }
+                                    },
+                                    "tes": {
+                                      "type": "string",
+                                      "x-stoplight": {
+                                        "id": "3y9ygxpxsc3er"
+                                      }
+                                    },
+                                    "yutu": {
+                                      "type": "object",
+                                      "x-stoplight": {
+                                        "id": "8ceho0kr2pww8"
+                                      },
+                                      "properties": {
+                                        "ytutu": {
+                                          "type": "string",
+                                          "x-stoplight": {
+                                            "id": "ddvcs8cbb0kkq"
+                                          }
+                                        },
+                                        "ugtuyu": {
+                                          "type": "string",
+                                          "x-stoplight": {
+                                            "id": "9wrz70cnt9oqx"
+                                          }
+                                        },
+                                        "": {
+                                          "x-stoplight": {
+                                            "id": "4t79w7fm67hsy"
+                                          },
+                                          "oneOf": [
+                                            {
+                                              "x-stoplight": {
+                                                "id": "xw6p8f8x1kj5b"
+                                              },
+                                              "properties": {
+                                                "refermodel": {
+                                                  "$ref": "../models/model2.json"
+                                                },
+                                                "refmermask": {
+                                                  "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "type": "object"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "definitions": {

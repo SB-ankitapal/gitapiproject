@@ -1,0 +1,19 @@
+title: model1
+x-stoplight:
+  id: ubgl97mymb74u
+x-tags:
+  - test
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: wz2le249s42fg
+  address:
+    type: string
+    x-stoplight:
+      id: egpyjekibiuq8
+  lanes:
+    type: string
+    x-stoplight:
+      id: e3fkwnwmy9xtb
