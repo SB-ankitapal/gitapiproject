@@ -320,7 +320,7 @@
                                       "$ref": "../models/model2.json"
                                     },
                                     "ref3": {
-                                      "$ref": "stoplight://resources/overrides/g7aBrwKpWBA"
+                                      "$ref": "stoplight://resources/overrides/Ma8jQZTcbug"
                                     }
                                   }
                                 }
