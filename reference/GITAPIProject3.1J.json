@@ -226,6 +226,83 @@
           "id": "jfapp8za0964g"
         }
       }
+    },
+    "/Path/test": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-Path-test",
+        "x-stoplight": {
+          "id": "y6614cgqatdmg"
+        }
+      },
+      "patch": {
+        "summary": "Your PATCH endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "patch-Path-test",
+        "x-stoplight": {
+          "id": "6oyj8ql5rkqke"
+        },
+        "requestBody": {
+          "content": {
+            "application/gzip": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "tesytgu": {
+                    "type": "string",
+                    "x-stoplight": {
+                      "id": "4ckdeb15gjgeb"
+                    }
+                  },
+                  "gtgdg": {
+                    "type": "object",
+                    "x-stoplight": {
+                      "id": "xj1an8mwfwoi1"
+                    },
+                    "properties": {
+                      "trett": {
+                        "type": "string",
+                        "x-stoplight": {
+                          "id": "y76ux4mrnkjnv"
+                        }
+                      },
+                      "trtett": {
+                        "type": "object",
+                        "x-stoplight": {
+                          "id": "ih7255frpe2mv"
+                        },
+                        "properties": {
+                          "ouutui": {
+                            "type": "string",
+                            "x-stoplight": {
+                              "id": "n5l2o3icldn3s"
+                            }
+                          },
+                          "huhihi": {
+                            "type": "string",
+                            "x-stoplight": {
+                              "id": "sgeutemw25v5b"
+                            }
+                          },
+                          "kjkhk ": {
+                            "type": "string",
+                            "x-stoplight": {
+                              "id": "jm7urp0c5qujv"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
