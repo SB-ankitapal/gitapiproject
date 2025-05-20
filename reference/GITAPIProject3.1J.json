@@ -292,6 +292,18 @@
                             "x-stoplight": {
                               "id": "jm7urp0c5qujv"
                             }
+                          },
+                          "refermodel": {
+                            "$ref": "../models/model2.json",
+                            "x-stoplight": {
+                              "id": "5d0rcsk30920w"
+                            }
+                          },
+                          "refermask": {
+                            "$ref": "stoplight://resources/overrides/Ma8jQZTcbug",
+                            "x-stoplight": {
+                              "id": "6z3eeni2ri4wt"
+                            }
                           }
                         }
                       }
