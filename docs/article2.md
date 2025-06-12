@@ -1,7 +1,7 @@
 ---
-stoplight-id: sjr6drion6y42
+stoplight-id: rsrtrqyz0wwt2
 ---
 
-# article
+# article2
 
 The beginning of an awesome article...
