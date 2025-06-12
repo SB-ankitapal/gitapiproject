@@ -4,15 +4,28 @@
     "id": "xuwnw5l7sv721"
   },
   "info": {
-    "title": "GITAPIProject2.0J",
-    "version": "1.0"
+    "title": "GITAPIProject2.0J use",
+    "version": "1.0",
+    "license": {
+      "name": "Test",
+      "url": "http://localhost:3000"
+    },
+    "contact": {
+      "name": "ContactName",
+      "url": "http://localhost:30001",
+      "email": "apiKey_1"
+    },
+    "termsOfService": "https://persistentteams.stoplight.io/studio/bottle-test1234?",
+    "description": "Test"
   },
-  "host": "localhost:3000",
+  "host": "localhost:30009",
   "schemes": [
     "http"
   ],
   "produces": [
-    "application/json"
+    "application/json",
+    "application/xml",
+    "multipart/form-data"
   ],
   "consumes": [
     "application/json"
@@ -147,7 +160,7 @@
           }
         ],
         "x-stoplight": {
-          "id": "2n9gypbnig4iw"
+          "id": "xuwnw5l7sv721"
         }
       }
     },
@@ -300,12 +313,29 @@
     "apiKey_1": {
       "name": "apiKey",
       "type": "apiKey",
-      "in": "query"
+      "in": "header"
+    },
+    "apiKey_2": {
+      "type": "basic"
+    },
+    "apiKey_3": {
+      "type": "oauth2",
+      "flow": "password",
+      "scopes": {}
     }
   },
   "security": [
+    {},
     {
       "apiKey_1": []
+    },
+    {
+      "apiKey_2": []
+    },
+    {
+      "apiKey_3": []
     }
-  ]
+  ],
+  "x-extension-1": "Test1233",
+  "basePath": "ankita"
 }
