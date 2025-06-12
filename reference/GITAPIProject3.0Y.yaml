@@ -4,8 +4,18 @@ x-stoplight:
 info:
   title: GITAPIProject3.0Y
   version: '1.0'
+  description: testyruyttg
+  contact:
+    name: yresrsrs
+    url: 'http://localhost:3000khuyuyuy8688868'
+    email: anki@gmail.com
+  termsOfService: 'http://localhost:30002424i90uu'
+  license:
+    name: post-user66
+    url: 'https://apy76i8yuiut8iyi.example.com'
 servers:
   - url: 'http://localhost:3000'
+    description: serverrrrrrrrrrrr
 paths:
   '/users/{userId}':
     parameters:
@@ -125,21 +135,34 @@ paths:
           application/json:
             schema:
               type: object
-              properties:
-                firstName:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                dateOfBirth:
-                  type: string
-                  format: date
               required:
                 - firstName
                 - lastName
                 - email
                 - dateOfBirth
+              properties:
+                firstName:
+                  type: array
+                  items:
+                    x-stoplight:
+                      id: 5ygwrts5reab5
+                    type: array
+                    items:
+                      x-stoplight:
+                        id: mskzfu3pe9g7y
+                      enum: []
+                lastName:
+                  type: integer
+                email:
+                  type: boolean
+                  default: true
+                dateOfBirth:
+                  type: string
+                  format: date
+                tcace:
+                  type: string
+                  x-stoplight:
+                    id: mskzfu3pe9g7y
             examples:
               Create User Bob Fellow:
                 value:
@@ -210,3 +233,36 @@ components:
         - emailVerified
       x-stoplight:
         id: 61lgz9vaa7db3
+  securitySchemes:
+    apiKey_1:
+      type: http
+      scheme: bearer
+    apiKey_2:
+      type: http
+      scheme: basic
+    apiKey_3:
+      name: apiKey
+      type: apiKey
+      in: cookie
+    apiKey_4:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: 'localhost:3000676686868868'
+          refreshUrl: 'https://api44444.example.com'
+          scopes:
+            scope_1: jgjguhuututyu
+            scope_2: ghffydtdy
+    apiKey_5:
+      type: openIdConnect
+      openIdConnectUrl: 'https://api.example.com'
+      description: test
+security:
+  - apiKey_3: []
+    apiKey_1: []
+    apiKey_5: []
+    apiKey_2: []
+x-extension-1: 67688b yitt t
+x-extension-2: 67688b yitt t
+x-extension-3: 67688b yitt t
+x-internal: true
