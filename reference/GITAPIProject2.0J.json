@@ -32,135 +32,10 @@
   ],
   "paths": {
     "/users/{userId}": {
-      "parameters": [
-        {
-          "type": "integer",
-          "name": "userId",
-          "in": "path",
-          "required": true,
-          "description": "Id of an existing user."
-        }
-      ],
-      "get": {
-        "summary": "Get User Info by User ID",
-        "tags": [],
-        "responses": {
-          "200": {
-            "description": "User Found",
-            "schema": {
-              "$ref": "#/definitions/User"
-            },
-            "examples": {
-              "Get User Alice Smith": {
-                "id": 142,
-                "firstName": "Alice",
-                "lastName": "Smith",
-                "email": "alice.smith@gmail.com",
-                "dateOfBirth": "1997-10-31",
-                "emailVerified": true,
-                "signUpDate": "2019-08-24"
-              }
-            }
-          },
-          "404": {
-            "description": "User Not Found",
-            "schema": {
-              "type": "null"
-            },
-            "examples": {}
-          }
-        },
-        "operationId": "get-users-userId",
-        "description": "Retrieve the information of the user with the matching user ID.",
-        "x-stoplight": {
-          "id": "xuwnw5l7sv721"
-        }
-      },
+      "id": "g3swqrzo5lzbd",
       "patch": {
-        "summary": "Update User Information",
-        "operationId": "patch-users-userId",
-        "responses": {
-          "200": {
-            "description": "User Updated",
-            "schema": {
-              "$ref": "#/definitions/User"
-            },
-            "examples": {
-              "Update User Rebecca Baker": {
-                "id": 13,
-                "firstName": "Rebecca",
-                "lastName": "Baker",
-                "email": "rebecca@gmail.com",
-                "dateOfBirth": "1985-10-02",
-                "emailVerified": false,
-                "createDate": "2019-08-24"
-              }
-            }
-          },
-          "404": {
-            "description": "User Not Found",
-            "schema": {
-              "allOf": [
-                {
-                  "$ref": "stoplight://resources/overrides/wjVFPrggGkk"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/VKBysEUwL1A"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/cv2VblHtB2A"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/YaGYqDV1Qh0"
-                }
-              ]
-            }
-          },
-          "409": {
-            "description": "Email Already Taken",
-            "schema": {
-              "type": "null"
-            }
-          }
-        },
-        "description": "Update the information of an existing user.",
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "schema": {
-              "allOf": [
-                {
-                  "$ref": "stoplight://resources/overrides/wjVFPrggGkk"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/VKBysEUwL1A"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/cv2VblHtB2A"
-                },
-                {
-                  "$ref": "stoplight://resources/overrides/YaGYqDV1Qh0"
-                }
-              ]
-            },
-            "description": "Patch user properties to update.",
-            "x-examples": {
-              "Update First Name": {
-                "firstName": "Rebecca"
-              },
-              "Update Email": {
-                "email": "rebecca@gmail.com"
-              },
-              "Update Last Name & Date of Birth": {
-                "lastName": "Baker",
-                "dateOfBirth": "1985-10-02"
-              }
-            }
-          }
-        ],
         "x-stoplight": {
-          "id": "xuwnw5l7sv721"
+          "id": "s5t4hyum4cdyr"
         }
       }
     },
@@ -229,7 +104,7 @@
           }
         ],
         "x-stoplight": {
-          "id": "xuwnw5l7sv721"
+          "id": "2ywkn8wbgqn9k"
         }
       }
     },
@@ -237,7 +112,7 @@
       "id": "afj4ggkr7bmf7",
       "put": {
         "x-stoplight": {
-          "id": "xuwnw5l7sv721"
+          "id": "ir9brh3dxfodk"
         }
       }
     }
@@ -245,32 +120,35 @@
   "definitions": {
     "User": {
       "title": "User",
+      "x-stoplight": {
+        "id": "abbnrc3r82oki"
+      },
       "type": "object",
       "properties": {
         "id": {
           "type": "integer",
           "description": "Unique identifier for the given user.",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "d8yssdj0dwk12"
           }
         },
         "firstName": {
           "type": "string",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "bkuxfoe29mka2"
           }
         },
         "lastName": {
           "type": "string",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "zotozdo9klxr3"
           }
         },
         "email": {
           "type": "string",
           "format": "email",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "yj15g00sv8uwh"
           }
         },
         "dateOfBirth": {
@@ -278,14 +156,14 @@
           "format": "date",
           "example": "1997-10-31",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "ix6ucqdn0u2km"
           }
         },
         "emailVerified": {
           "type": "boolean",
           "description": "Set to true if the user's email has been verified.",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "xbdpyugpv9wtw"
           }
         },
         "createDate": {
@@ -293,7 +171,7 @@
           "format": "date",
           "description": "The date that the user was created.",
           "x-stoplight": {
-            "id": "xuwnw5l7sv721"
+            "id": "4qj65dgk50ijc"
           }
         }
       },
@@ -303,10 +181,7 @@
         "lastName",
         "email",
         "emailVerified"
-      ],
-      "x-stoplight": {
-        "id": "xuwnw5l7sv721"
-      }
+      ]
     }
   },
   "securityDefinitions": {
