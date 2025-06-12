@@ -227,7 +227,7 @@
         "responses": {},
         "operationId": "get-Newpath-thhe",
         "x-stoplight": {
-          "id": "5ujb001299u1y"
+          "id": "d0kf4gr9bao61"
         }
       },
       "put": {
@@ -236,7 +236,7 @@
         "responses": {},
         "operationId": "put-Newpath-thhe",
         "x-stoplight": {
-          "id": "94zc21cp2620o"
+          "id": "d0kf4gr9bao61"
         },
         "parameters": [
           {
