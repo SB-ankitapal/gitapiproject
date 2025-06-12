@@ -73,7 +73,7 @@
         "operationId": "get-users-userId",
         "description": "Retrieve the information of the user with the matching user ID.",
         "x-stoplight": {
-          "id": "nn4ujmrj8zj4g"
+          "id": "xuwnw5l7sv721"
         }
       },
       "patch": {
@@ -229,7 +229,7 @@
           }
         ],
         "x-stoplight": {
-          "id": "d0kf4gr9bao61"
+          "id": "xuwnw5l7sv721"
         }
       }
     },
@@ -237,7 +237,7 @@
       "id": "afj4ggkr7bmf7",
       "put": {
         "x-stoplight": {
-          "id": "ck5jubffc30sw"
+          "id": "xuwnw5l7sv721"
         }
       }
     }
@@ -251,26 +251,26 @@
           "type": "integer",
           "description": "Unique identifier for the given user.",
           "x-stoplight": {
-            "id": "6ehewpfaflyyq"
+            "id": "xuwnw5l7sv721"
           }
         },
         "firstName": {
           "type": "string",
           "x-stoplight": {
-            "id": "5i794capqsbsw"
+            "id": "xuwnw5l7sv721"
           }
         },
         "lastName": {
           "type": "string",
           "x-stoplight": {
-            "id": "c30vdkukyx55v"
+            "id": "xuwnw5l7sv721"
           }
         },
         "email": {
           "type": "string",
           "format": "email",
           "x-stoplight": {
-            "id": "fh10rq798zlx1"
+            "id": "xuwnw5l7sv721"
           }
         },
         "dateOfBirth": {
@@ -278,14 +278,14 @@
           "format": "date",
           "example": "1997-10-31",
           "x-stoplight": {
-            "id": "ah6igghdl37xw"
+            "id": "xuwnw5l7sv721"
           }
         },
         "emailVerified": {
           "type": "boolean",
           "description": "Set to true if the user's email has been verified.",
           "x-stoplight": {
-            "id": "e8rqqbieu77j9"
+            "id": "xuwnw5l7sv721"
           }
         },
         "createDate": {
@@ -293,7 +293,7 @@
           "format": "date",
           "description": "The date that the user was created.",
           "x-stoplight": {
-            "id": "sreqnboa68w7j"
+            "id": "xuwnw5l7sv721"
           }
         }
       },
@@ -305,7 +305,7 @@
         "emailVerified"
       ],
       "x-stoplight": {
-        "id": "oanvs4cg1vvxh"
+        "id": "xuwnw5l7sv721"
       }
     }
   },
