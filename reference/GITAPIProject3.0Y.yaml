@@ -50,7 +50,7 @@ paths:
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
-        id: p3etm4z67goxm
+        id: h1iobyygo7ibb
     patch:
       summary: Update User Information
       operationId: patch-users-userId
@@ -104,7 +104,7 @@ paths:
                   dateOfBirth: '1985-10-02'
         description: Patch user properties to update.
       x-stoplight:
-        id: 4ee1kx12fjrvl
+        id: h1iobyygo7ibb
   /user:
     post:
       summary: Create New User
@@ -145,11 +145,11 @@ paths:
                   type: array
                   items:
                     x-stoplight:
-                      id: 5ygwrts5reab5
+                      id: h1iobyygo7ibb
                     type: array
                     items:
                       x-stoplight:
-                        id: sz92gi4v3wget
+                        id: h1iobyygo7ibb
                       enum: []
                 lastName:
                   type: integer
@@ -162,7 +162,7 @@ paths:
                 tcace:
                   type: string
                   x-stoplight:
-                    id: mskzfu3pe9g7y
+                    id: h1iobyygo7ibb
             examples:
               Create User Bob Fellow:
                 value:
@@ -173,7 +173,7 @@ paths:
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
       x-stoplight:
-        id: n1m3ikhht7jfm
+        id: h1iobyygo7ibb
 components:
   schemas:
     User:
@@ -194,37 +194,37 @@ components:
           type: integer
           description: Unique identifier for the given user.
           x-stoplight:
-            id: i80atd3gvi5ox
+            id: h1iobyygo7ibb
         firstName:
           type: string
           x-stoplight:
-            id: cv2lsb07jri5v
+            id: h1iobyygo7ibb
         lastName:
           type: string
           x-stoplight:
-            id: erwt1hvauhc9t
+            id: h1iobyygo7ibb
         email:
           type: string
           format: email
           x-stoplight:
-            id: uko6pfjqs6c8e
+            id: h1iobyygo7ibb
         dateOfBirth:
           type: string
           format: date
           example: '1997-10-31'
           x-stoplight:
-            id: rc5oldhp3v2qr
+            id: h1iobyygo7ibb
         emailVerified:
           type: boolean
           description: Set to true if the user's email has been verified.
           x-stoplight:
-            id: f9wo3ir72fk4z
+            id: h1iobyygo7ibb
         createDate:
           type: string
           format: date
           description: The date that the user was created.
           x-stoplight:
-            id: 807edrx80vnf8
+            id: h1iobyygo7ibb
       required:
         - id
         - firstName
@@ -232,7 +232,7 @@ components:
         - email
         - emailVerified
       x-stoplight:
-        id: 61lgz9vaa7db3
+        id: h1iobyygo7ibb
   securitySchemes:
     apiKey_1:
       type: http
