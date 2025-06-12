@@ -149,7 +149,7 @@ paths:
                     type: array
                     items:
                       x-stoplight:
-                        id: mskzfu3pe9g7y
+                        id: sz92gi4v3wget
                       enum: []
                 lastName:
                   type: integer
