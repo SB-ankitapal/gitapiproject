@@ -60,7 +60,7 @@
         "operationId": "get-users-userId",
         "description": "Retrieve the information of the user with the matching user ID.",
         "x-stoplight": {
-          "id": "xuwnw5l7sv721"
+          "id": "nn4ujmrj8zj4g"
         }
       },
       "patch": {
@@ -147,7 +147,7 @@
           }
         ],
         "x-stoplight": {
-          "id": "bxw9ir5ffy09a"
+          "id": "2n9gypbnig4iw"
         }
       }
     },
