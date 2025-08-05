@@ -115,6 +115,226 @@
           "id": "ir9brh3dxfodk"
         }
       }
+    },
+    "/users123/{6878787878}/Testing/1236445/{34567890}/Topper/{567890234567890}/!@#$^&*())((*&&&^^^^^%%%%": {
+      "parameters": [
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "6878787878",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "34567890",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "567890234567890",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "viv9zodn1bziz"
+        }
+      },
+      "post": {
+        "summary": "Your POST endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "post-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "1kvrji41detoj"
+        }
+      },
+      "options": {
+        "summary": "Your OPTIONS endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "options-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "x3jgmq64z7yu2"
+        }
+      },
+      "head": {
+        "summary": "Your HEAD endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "head-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "gpx1b5e0iif3o"
+        }
+      },
+      "trace": {
+        "summary": "Your TRACE endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "trace-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "vtse9s24yi6m6"
+        }
+      },
+      "patch": {
+        "summary": "Your PATCH endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "patch-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "xxn2bjx6bzrr5"
+        }
+      },
+      "delete": {
+        "summary": "Your DELETE endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "delete-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "zylqtgk3rbe2g"
+        }
+      },
+      "put": {
+        "summary": "Your PUT endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "put-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
+        "x-stoplight": {
+          "id": "78zlejea0akl5"
+        }
+      }
     }
   },
   "definitions": {
