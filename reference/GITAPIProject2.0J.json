@@ -300,7 +300,7 @@
         }
       },
       "trace": {
-        "summary": "Your TRACE endpoint",
+        "summary": "ABC TRACE endpoint",
         "tags": [],
         "responses": {},
         "operationId": "trace-users123-6878787878-Testing-1236445-34567890-Topper-567890234567890-!@#$-&*())((*&&&",
